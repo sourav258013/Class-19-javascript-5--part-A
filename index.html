@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-19 (Part-A)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section id="qr">
+        <div class="container">
+            <div class="box">
+                <input class="input" type="text" placeholder="Enter your url">
+                <button class="btn">Create QR Link</button>
+            </div>
+
+            <div class="code">
+                <img class="imglnk" src= "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data= ${inputValue}" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

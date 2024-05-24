@@ -1,0 +1,59 @@
+/* css common start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* css common end*/
+
+#qr{
+    background-color: #9FA8DA;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#qr .box{
+    display: flex;
+ justify-content: center;
+}
+
+#qr .box input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #FFEBEE;
+}
+
+#qr .box button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #AD1457;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#qr .code{
+    text-align: center;
+    margin-top: 25px;
+}
+
